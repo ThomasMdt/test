@@ -1,0 +1,18 @@
+<div class="columns is-centered mt-2 mb-3">
+<div class="field">
+<form [formGroup]="form">
+  <label class="label">Количество километров</label>
+  <div class="control">
+    <input class="input" type="number" min="0" [formControlName]="'km'">
+  </div>
+  <label class="label">Возраст</label>
+  <div class="control">
+    <input  class="input" type="number" min="0" [formControlName]="'age'"></div>
+  <label class="label">Вес</label>
+  <div class="control">
+  <input class="input" type="number" min="0" [formControlName]="'weight'">
+  </div>
+</form>
+<button class="button mt-2" (click)="submit()">Рассчитать</button>
+</div>
+</div>

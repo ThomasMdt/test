@@ -1,0 +1,12 @@
+<div class="columns is-centered mt-3 mb-2">
+<div class="card column is-one-quarter">
+  <div class="card-header">
+    <p class="card-header-title">{{company?.name}}</p>
+  </div>
+  <div class="card-content">
+    <div class="content">
+      <p *ngFor="let tarriff of tariffs">{{tarriff.name}} {{tarriff.pay}}</p>
+    </div>
+  </div>
+</div>
+</div>
