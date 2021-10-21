@@ -1,4 +1,4 @@
-import { Tariff } from "../interfaces/base";
+import {Tariff} from "./tariff.model";
 
 export class CompanyModel {
   public _tariffs: Tariff[] = [];
